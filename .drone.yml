@@ -1,0 +1,9 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: jsonnet
+  image: bitnami/jsonnet
+  commands: [jsonnet -m . main.jsonnet]
