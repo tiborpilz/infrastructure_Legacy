@@ -17,7 +17,7 @@ terraform {
     }
     argocd = {
       source  = "oboukili/argocd"
-      version = "6.0.3"
+      version = "7.0.0"
     }
     keycloak = {
       source  = "mrparkers/keycloak"
